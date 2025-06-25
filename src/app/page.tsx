@@ -12,6 +12,7 @@ import {
   ChevronRight,
   CheckCircle
 } from 'lucide-react';
+import { APP_CONFIG } from '@/config/constants';
 
 export default function Home() {
   const quickAccessItems = [
@@ -102,7 +103,7 @@ export default function Home() {
             <div className="relative">
               <div className="relative w-full h-96 lg:h-[500px]">
                 <Image
-                  src="/images/hero-illustration.svg"
+                  src={APP_CONFIG.getAssetPath("/images/hero-modern.svg")}
                   alt="子どもの足の健康"
                   fill
                   className="object-contain"
