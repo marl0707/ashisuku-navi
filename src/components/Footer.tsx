@@ -27,7 +27,7 @@ const Footer = () => {
         { name: 'Q&A', href: '/support/faq' },
         { name: '医療機関検索', href: '/support/medical' },
         { name: '学校への働きかけガイド', href: '/support/school' },
-        { name: '専門家情報', href: '/support/experts' },
+        { name: '専門家情報', href: '/support/expert' },
       ],
     },
     {
@@ -84,7 +84,7 @@ const Footer = () => {
             </div>
           </div>
           <div className="mt-4 text-center text-sm text-gray-500">
-            © 2024 あしすくナビ. All rights reserved.
+            © 2024 足育（あしすく）ナビ. All rights reserved.
           </div>
         </div>
       </div>

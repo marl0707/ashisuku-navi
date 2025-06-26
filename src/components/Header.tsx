@@ -28,7 +28,7 @@ const Header = () => {
                 <div className="absolute -bottom-1 -right-1 w-3 h-3 bg-green-400 rounded-full animate-pulse"></div>
               </div>
               <div>
-                <span className="text-2xl font-black text-gray-900">あしすく</span>
+                <span className="text-2xl font-black text-gray-900">足育（あしすく）</span>
                 <span className="text-2xl font-light text-gray-600">ナビ</span>
               </div>
             </Link>
@@ -45,8 +45,8 @@ const Header = () => {
                 {item.name}
               </Link>
             ))}
-            <Link href="/emergency" className="ml-4 px-6 py-2 gradient-button text-white font-medium rounded-full hover:shadow-lg transform hover:scale-105 transition">
-              情報を見る
+            <Link href="/practice/insole" className="ml-4 px-6 py-2 gradient-button text-white font-medium rounded-full hover:shadow-lg transform hover:scale-105 transition">
+              オーダーメイドインソール情報
             </Link>
           </nav>
 
@@ -79,11 +79,11 @@ const Header = () => {
               </Link>
             ))}
             <Link
-              href="/emergency"
+              href="/practice/insole"
               className="block px-3 py-2 rounded-md text-base font-medium text-white bg-gradient-to-r from-purple-600 to-pink-500"
               onClick={() => setMobileMenuOpen(false)}
             >
-              情報を見る
+              オーダーメイドインソール情報
             </Link>
           </div>
         </div>

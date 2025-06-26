@@ -54,7 +54,7 @@ export default function SportsPage() {
     {
       name: '陸上競技',
       description: '種目別の足部負荷と対策',
-      href: '/sports/athletics',
+      href: '/sports/track',
       image: '🏃',
       keyPoints: [
         '種目別シューズ',
